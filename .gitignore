@@ -1,0 +1,29 @@
+# ✅ [1] 빌드 결과물
+/out/
+/build/
+/*.class
+
+# ✅ [2] Gradle
+.gradle/
+/gradle/ wrapper/ gradle-wrapper.jar
+
+# ✅ [3] 실행 파일
+*.jar
+*.war
+*.log
+
+# ✅ [4] IDE 관련 (IntelliJ, VSCode 등)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ✅ [5] 시스템 파일
+.DS_Store
+Thumbs.db
+
+# ✅ [6] 환경 설정 파일
+.env
+application-*.yml
+application-*.properties
