@@ -1,7 +1,7 @@
-package com.jungle.troubleshooter.service;
+package com.jungle.troubleshooter.test.service;
 
-import com.jungle.troubleshooter.domain.TestEntity;
-import com.jungle.troubleshooter.repository.TestRepository;
+import com.jungle.troubleshooter.test.domain.TestEntity;
+import com.jungle.troubleshooter.test.repository.TestRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

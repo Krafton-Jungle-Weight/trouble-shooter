@@ -1,6 +1,6 @@
-package com.jungle.troubleshooter.controller;
+package com.jungle.troubleshooter.test.controller;
 
-import com.jungle.troubleshooter.service.TestService;
+import com.jungle.troubleshooter.test.service.TestService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

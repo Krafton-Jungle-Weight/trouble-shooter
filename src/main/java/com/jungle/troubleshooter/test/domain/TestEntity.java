@@ -1,4 +1,4 @@
-package com.jungle.troubleshooter.domain;
+package com.jungle.troubleshooter.test.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
