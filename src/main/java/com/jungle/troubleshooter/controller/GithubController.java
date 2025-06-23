@@ -1,6 +1,6 @@
 package com.jungle.troubleshooter.controller;
 
-import com.jungle.troubleshooter.service.GithubCommitService;
+import com.jungle.troubleshooter.service.GithubService;
 import java.util.Map;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,9 +14,9 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/api/github")
 public class GithubController {
 
-    private final GithubCommitService githubCommitService;
+    private final GithubService githubCommitService;
 
-    public GithubController(GithubCommitService githubCommitService) {
+    public GithubController(GithubService githubCommitService) {
         this.githubCommitService = githubCommitService;
     }
 

@@ -1,19 +1,16 @@
 package com.jungle.troubleshooter.service;
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 @Service
-public class GithubCommitService {
+public class GithubService {
 
     private final WebClient githubWebClient;
 
-    public GithubCommitService(WebClient githubWebClient) {
+    public GithubService(WebClient githubWebClient) {
         this.githubWebClient = githubWebClient;
     }
 
